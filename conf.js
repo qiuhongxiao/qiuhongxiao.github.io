@@ -42,7 +42,7 @@ jsproxy_config({
 
         // 免费版（低权重，分摊一些成本）
         // 每个账号每天 10 万次免费请求，但有频率限制
-        'odd-butterfly-c598.q7.workers.dev': 1,
+        'black-limit-3c97.q7.workers.dev': 1,
         //'b.hehe.workers.dev': 1,
         //'b.lulu.workers.dev': 1,
         //'b.jsproxy.workers.dev': 1,
@@ -53,7 +53,7 @@ jsproxy_config({
   /**
    * 默认节点
    */
-  node_default: 'demo-hk',
+  node_default: 'mysite',
   // node_default: /jsproxy-demo\.\w+$/.test(location.host) ? 'demo-hk' : 'mysite',
 
   /**
